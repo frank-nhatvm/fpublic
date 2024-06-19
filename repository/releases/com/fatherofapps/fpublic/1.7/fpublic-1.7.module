@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fatherofapps",
+    "module": "fpublic",
+    "version": "1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fpublic-1.7.aar",
+          "url": "fpublic-1.7.aar",
+          "size": 2113,
+          "sha512": "ffd305fde281c5abe7d194cdef7be7ede1d50afac4c8f09e7c7849a560f65ef37723703f4644df0972f01f705f5bd008ed4dff38ab8a2077003fcb7539069785",
+          "sha256": "7e20cbdbe44d37a6bb9d22aeff4e718110d19916af7384d9aeb6f835f309b19b",
+          "sha1": "f41f75442d2cd08d89d577bdf1a23292babde672",
+          "md5": "02728fb2e0fe135faba5dffc9f46258a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fpublic-1.7.aar",
+          "url": "fpublic-1.7.aar",
+          "size": 2113,
+          "sha512": "ffd305fde281c5abe7d194cdef7be7ede1d50afac4c8f09e7c7849a560f65ef37723703f4644df0972f01f705f5bd008ed4dff38ab8a2077003fcb7539069785",
+          "sha256": "7e20cbdbe44d37a6bb9d22aeff4e718110d19916af7384d9aeb6f835f309b19b",
+          "sha1": "f41f75442d2cd08d89d577bdf1a23292babde672",
+          "md5": "02728fb2e0fe135faba5dffc9f46258a"
+        }
+      ]
+    }
+  ]
+}
